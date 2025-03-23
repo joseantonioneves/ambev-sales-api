@@ -3,6 +3,9 @@ using Ambev.DeveloperEvaluation.Common.HealthChecks;
 using Ambev.DeveloperEvaluation.Common.Logging;
 using Ambev.DeveloperEvaluation.Common.Security;
 using Ambev.DeveloperEvaluation.Common.Validation;
+using Ambev.DeveloperEvaluation.Domain.Repositories;
+using Ambev.DeveloperEvaluation.Domain.Services;
+using Ambev.DeveloperEvaluation.Infrastructure.Repositories;
 using Ambev.DeveloperEvaluation.IoC;
 using Ambev.DeveloperEvaluation.ORM;
 using Ambev.DeveloperEvaluation.WebApi.Middleware;
@@ -51,6 +54,10 @@ public class Program
             });
 
             builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+
+            // implementação as novas dependencias
+            builder.Services.AddScoped<ISaleRepository, SaleRepository>();
+            builder.Services.AddScoped<ISaleService, SaleService>();
 
             var app = builder.Build();
             app.UseMiddleware<ValidationExceptionMiddleware>();
