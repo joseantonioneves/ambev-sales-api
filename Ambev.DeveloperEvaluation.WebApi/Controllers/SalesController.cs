@@ -1,12 +1,17 @@
+using Ambev.DeveloperEvaluation.Application.Sales.CancelSale;
 using Ambev.DeveloperEvaluation.Application.Sales.CreateSale;
-using Ambev.DeveloperEvaluation.Domain.Entities;
+using Ambev.DeveloperEvaluation.Application.Sales.GetSales;
+using Ambev.DeveloperEvaluation.Application.Sales.GetSaleById;
+using Ambev.DeveloperEvaluation.Application.Sales.UpdateSale;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Threading.Tasks;
 
 namespace Ambev.DeveloperEvaluation.WebApi.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/sales")]
     public class SalesController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -16,12 +21,44 @@ namespace Ambev.DeveloperEvaluation.WebApi.Controllers
             _mediator = mediator;
         }
 
+        [HttpGet]
+        public async Task<IActionResult> GetSales([FromQuery] bool? isCancelled)
+        {
+            var query = new GetSalesQuery { IsCancelled = isCancelled };
+            var result = await _mediator.Send(query);
+            return Ok(result);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetSaleById(Guid id)
+        {
+            var query = new GetSaleByIdQuery { Id = id };
+            var result = await _mediator.Send(query);
+            return result != null ? Ok(result) : NotFound();
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreateSale([FromBody] Sale sale)
         {
             var command = new CreateSaleCommand { Sale = sale };
-            var saleId = await _mediator.Send(command);
-            return Ok(saleId);
+            var result = await _mediator.Send(command);
+            return CreatedAtAction(nameof(GetSaleById), new { id = result }, sale);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateSale(Guid id, [FromBody] Sale sale)
+        {
+            var command = new UpdateSaleCommand { Id = id, UpdatedSale = sale };
+            await _mediator.Send(command);
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> CancelSale(Guid id)
+        {
+            var command = new CancelSaleCommand { Id = id };
+            await _mediator.Send(command);
+            return NoContent();
         }
     }
 }
