@@ -1,0 +1,66 @@
+2025-03-29 14:55:40.791 -03:00 [INF] Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService Health Check enabled at: '/health'
+2025-03-29 14:55:40.999 -03:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using 'C:\Users\José Antonio\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-29 14:55:41.288 -03:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Creating key {79a00fa5-0660-487b-8e63-a7c71e9b9b79} with creation date 2025-03-29 17:55:41Z, activation date 2025-03-29 17:55:41Z, and expiration date 2025-06-27 17:55:41Z.
+2025-03-29 14:55:41.309 -03:00 [INF] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Writing data to file 'C:\Users\José Antonio\AppData\Local\ASP.NET\DataProtection-Keys\key-79a00fa5-0660-487b-8e63-a7c71e9b9b79.xml'.
+2025-03-29 14:55:41.497 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5119
+2025-03-29 14:55:41.501 -03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2025-03-29 14:55:41.505 -03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: Development
+2025-03-29 14:55:41.509 -03:00 [INF] Microsoft.Hosting.Lifetime Content root path: C:\Users\José Antonio\Downloads\abi-gth-omnia-developer-evaluation.NET 1\template\backend\src\Ambev.DeveloperEvaluation.WebApi
+2025-03-29 14:55:52.275 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/ - null null
+2025-03-29 14:55:52.679 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/ - 404 0 null 405.3875ms
+2025-03-29 14:55:52.723 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5119/, Response status code: 404
+2025-03-29 14:55:56.513 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/ - null null
+2025-03-29 14:55:56.537 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/ - 404 0 null 23.494ms
+2025-03-29 14:55:56.571 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5119/, Response status code: 404
+2025-03-29 14:56:00.646 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/ - null null
+2025-03-29 14:56:00.667 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/ - 404 0 null 20.6833ms
+2025-03-29 14:56:00.683 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5119/, Response status code: 404
+2025-03-29 14:56:01.408 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/ - null null
+2025-03-29 14:56:01.417 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/ - 404 0 null 8.2429ms
+2025-03-29 14:56:01.446 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5119/, Response status code: 404
+2025-03-29 14:57:26.115 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/ - null null
+2025-03-29 14:57:26.274 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/ - 404 0 null 158.7776ms
+2025-03-29 14:57:26.358 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5119/, Response status code: 404
+2025-03-29 15:16:19.053 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger - null null
+2025-03-29 15:16:19.069 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger - 301 0 null 16.3586ms
+2025-03-29 15:16:19.079 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/index.html - null null
+2025-03-29 15:16:19.186 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/index.html - 200 null text/html;charset=utf-8 107.0029ms
+2025-03-29 15:16:19.203 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/index.css - null null
+2025-03-29 15:16:19.207 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/swagger-ui-bundle.js - null null
+2025-03-29 15:16:19.211 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/swagger-ui-standalone-preset.js - null null
+2025-03-29 15:16:19.213 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/swagger-ui.css - null null
+2025-03-29 15:16:19.213 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/index.js - null null
+2025-03-29 15:16:19.264 -03:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-29 15:16:19.308 -03:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-29 15:16:19.368 -03:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-29 15:16:19.376 -03:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-29 15:16:19.414 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/index.js - 200 null application/javascript;charset=utf-8 200.7611ms
+2025-03-29 15:16:19.448 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/index.css - 200 202 text/css 244.7846ms
+2025-03-29 15:16:19.461 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/swagger-ui-standalone-preset.js - 200 230293 text/javascript 250.583ms
+2025-03-29 15:16:19.468 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/swagger-ui-bundle.js - 200 1452753 text/javascript 260.4769ms
+2025-03-29 15:16:19.476 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/swagger-ui.css - 200 152034 text/css 263.0402ms
+2025-03-29 15:16:19.675 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - null null
+2025-03-29 15:16:19.708 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/favicon-32x32.png - null null
+2025-03-29 15:16:19.713 -03:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-03-29 15:16:19.725 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/favicon-32x32.png - 200 628 image/png 16.381ms
+2025-03-29 15:16:19.878 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 202.914ms
+2025-03-29 15:20:00.587 -03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2025-03-29 15:22:46.911 -03:00 [INF] Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService Health Check enabled at: '/health'
+2025-03-29 15:22:47.098 -03:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using 'C:\Users\José Antonio\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-29 15:22:47.202 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5119
+2025-03-29 15:22:47.206 -03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2025-03-29 15:22:47.210 -03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: Development
+2025-03-29 15:22:47.211 -03:00 [INF] Microsoft.Hosting.Lifetime Content root path: C:\Users\José Antonio\Downloads\abi-gth-omnia-developer-evaluation.NET 1\template\backend\src\Ambev.DeveloperEvaluation.WebApi
+2025-03-29 15:22:57.314 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/ - null null
+2025-03-29 15:22:57.509 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Controllers.HomeController.Get (Ambev.DeveloperEvaluation.WebApi)'
+2025-03-29 15:22:57.553 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "Get", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller Ambev.DeveloperEvaluation.WebApi.Controllers.HomeController (Ambev.DeveloperEvaluation.WebApi).
+2025-03-29 15:22:57.566 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor Executing RedirectResult, redirecting to /swagger.
+2025-03-29 15:22:57.574 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Controllers.HomeController.Get (Ambev.DeveloperEvaluation.WebApi) in 10.7574ms
+2025-03-29 15:22:57.585 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Controllers.HomeController.Get (Ambev.DeveloperEvaluation.WebApi)'
+2025-03-29 15:22:57.594 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/ - 302 0 null 282.4853ms
+2025-03-29 15:22:57.605 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/index.html - null null
+2025-03-29 15:22:57.709 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/index.html - 200 null text/html;charset=utf-8 104.5623ms
+2025-03-29 15:22:57.793 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/index.js - null null
+2025-03-29 15:22:57.808 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/index.js - 200 null application/javascript;charset=utf-8 14.8517ms
+2025-03-29 15:22:58.055 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - null null
+2025-03-29 15:22:58.214 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 159.2197ms

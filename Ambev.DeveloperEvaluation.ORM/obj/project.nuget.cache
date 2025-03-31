@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9WXQZpbiIQr/O91QvJnOTX/U66WwFzVOilNOfWBzJivGTlWsIXnQPj49ophI05JUxw9/vow51vDEBnVf0ndfaw==",
+  "dgSpecHash": "QvFbhpAgdzw5A2vNOP3HdA3QDolkyyfeykozpQr9mhMN7wnAzYpzNrSkEfP7C8sYLoXFj7092ls4E9su3HAblQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\José Antonio\\Downloads\\abi-gth-omnia-developer-evaluation.NET 1\\template\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj",
   "expectedPackageFiles": [
@@ -44,8 +44,8 @@
     "C:\\Users\\José Antonio\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "C:\\Users\\José Antonio\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
     "C:\\Users\\José Antonio\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
-    "C:\\Users\\José Antonio\\.nuget\\packages\\npgsql\\8.0.4\\npgsql.8.0.4.nupkg.sha512",
-    "C:\\Users\\José Antonio\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.8\\npgsql.entityframeworkcore.postgresql.8.0.8.nupkg.sha512",
+    "C:\\Users\\José Antonio\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
+    "C:\\Users\\José Antonio\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.4\\npgsql.entityframeworkcore.postgresql.8.0.4.nupkg.sha512",
     "C:\\Users\\José Antonio\\.nuget\\packages\\serilog\\4.0.0\\serilog.4.0.0.nupkg.sha512",
     "C:\\Users\\José Antonio\\.nuget\\packages\\serilog.aspnetcore\\8.0.3\\serilog.aspnetcore.8.0.3.nupkg.sha512",
     "C:\\Users\\José Antonio\\.nuget\\packages\\serilog.enrichers.environment\\3.0.1\\serilog.enrichers.environment.3.0.1.nupkg.sha512",

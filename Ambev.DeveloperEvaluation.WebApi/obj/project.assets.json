@@ -1568,7 +1568,7 @@
           "Ambev.DeveloperEvaluation.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.10",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.8"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4"
         },
         "compile": {
           "bin/placeholder/Ambev.DeveloperEvaluation.ORM.dll": {}
